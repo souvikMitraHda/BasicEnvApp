@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.test</groupId>
-	<artifactId>envVariableCheck</artifactId>
+	<artifactId>env-variable-check</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>envVariableCheck</name>
+	<name>env-variable-check</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>8</java.version>
