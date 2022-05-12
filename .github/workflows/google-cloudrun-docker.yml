@@ -11,6 +11,7 @@ env:
   SERVICE: foreign-exchange # TODO: update Cloud Run service name
   REGION: us-central1 # TODO: update Cloud Run service region
 
+
 jobs:
   deploy:
     # Add 'id-token' with the intended permissions for workload identity federation
