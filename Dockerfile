@@ -12,6 +12,6 @@ RUN mvn package -DskipTests
 FROM adoptopenjdk/openjdk8:x86_64-alpine-jdk8u232-b09-slim
 
 # Copy the jar to the production image from the builder stage.
-COPY --from=env-variable-check /app/target/envVariableCheck-0.0.1*.jar /envVariableCheck-0.0.1-SNAPSHOT.jar
+COPY --from=env-variable-check /app/target/env-variable-check-0.0.1*.jar /env-variable-check-0.0.1-SNAPSHOT.jar
 
-CMD ["java","-jar","/envVariableCheck-0.0.1-SNAPSHOT.jar"]
+CMD ["java","-jar","/env-variable-check-0.0.1-SNAPSHOT.jar"]
